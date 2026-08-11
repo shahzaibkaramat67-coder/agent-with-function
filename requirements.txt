@@ -1,29 +1,44 @@
 streamlit
 python-dotenv
+
+# LangChain
 langchain
 langchain-core
 langchain-community
-langchain-google-genai
-langchain-huggingface
 langchain-text-splitters
-google-generativeai
+langchain-huggingface
+langchain-google-genai
+langchain-ollama
+
+# LLM providers
 google-genai
+google-generativeai
 openai
 groq
 mistralai
 openrouter
+
+# RAG / Vector databases
 chromadb
 faiss-cpu
-pypdf
-beautifulsoup4
-requests
-tiktoken
-tavily-python
-pydantic
-huggingface_hub
+
+# Embeddings / Reranking
 sentence-transformers
-duckduckgo-search
-ddgs
-ollama
-langchain_ollama
+huggingface-hub
+
+# Document processing
+pypdf
 python-docx
+beautifulsoup4
+
+# Web / Search
+requests
+tavily-python
+ddgs
+tiktoken
+
+# Local models
+ollama
+
+# Data validation
+pydantic
